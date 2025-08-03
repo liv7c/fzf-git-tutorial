@@ -2,15 +2,15 @@
 
 Learn to build Git helpers with fzf and Bash from scratch.
 
-This repository contains the code examples from the blog post ["The joy of fzf: building Git helpers with Bash"](https://oliviac.dev/blog/fzf-bash-git-helpers).
+This repository contains the code examples from the blog post: [**Build Git helpers from scratch with Bash and fzf**](https://oliviac.dev/blog/build-git-helpers-bash-fzf).
 
 ## What you'll learn
 
-- How to combine fzf with Git commands
-- Writing Bash functions along with some Bash scripting tips
+- How to combine `fzf` with Git commands
+- Writing Bash functions (with some scripting tips)
 - Building interactive branch switchers
-- Creating safe deletion helpers with confirmations
-- Making commit selection tools for rebasing
+- Creating safe deletion helpers with confirmation
+- Making a commit selection tool for rebasing
 
 ## Quick start
 
@@ -24,11 +24,19 @@ This repository contains the code examples from the blog post ["The joy of fzf: 
    cd fzf-git-tutorial
    ```
 
-3. **Install the helpers**. Source this file in your `.bashrc`:
+3. **Source the helpers**
+
+   Add this to your `~/.bashrc` (or `~/.bash_profile`):
 
    ```bash
     # in your ~/.bashrc
-    source PATH_TO_THIS_REPO/fzf-git-tutorial/.bash_helpers
+    source /path/to/fzf-git-tutorial/.bash_helpers
+   ```
+
+   Then reload your shell:
+
+   ```bash
+   source ~/.bashrc
    ```
 
 4. **Try the helpers** (in any Git repository):
@@ -59,7 +67,7 @@ Choose a commit to rebase onto using fzf with colored Git log output.
 
 ## Educational focus
 
-This repository is designed for learning and making Bash scripting less of a black box. For a more robust and feature-complete solution, check out [fzf-git.sh](https://github.com/junegunn/fzf-git.sh) by the creator of fzf.
+This repository is designed for learning and exploring Bash scripting with `fzf`. For a more robust and feature-rich solution, check out [fzf-git.sh](https://github.com/junegunn/fzf-git.sh).
 
 ## Requirements
 
@@ -69,7 +77,7 @@ This repository is designed for learning and making Bash scripting less of a bla
 
 ## Blog post
 
-Read the full tutorial: [The joy of fzf: building Git helpers with Bash](https://oliviac.dev/blog/fzf-bash-git-helpers)
+Read the full tutorial: ["Build Git helpers from scratch with Bash and fzf"](https://oliviac.dev/blog/build-git-helpers-bash-fzf). 
 
 ## License
 
